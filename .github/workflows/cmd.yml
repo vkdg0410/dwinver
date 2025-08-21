@@ -1,4 +1,0 @@
-name: Command Run
-
-on:
-  workflow_dispatch:
