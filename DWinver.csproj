@@ -1,0 +1,77 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows10.0.18362.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>shell32_3.ico</ApplicationIcon>
+    <Copyright>© Dev Setup All Rats reserved!</Copyright>
+    <Description>Fish</Description>
+    <Company>Dev Setup</Company>
+    <Authors>Dev Setup</Authors>
+    <Title>$(AssemblyName)</Title>
+    <Version>2.0</Version>
+    <PackageIcon>shell32_3.png</PackageIcon>
+    <AssemblyVersion>2.0</AssemblyVersion>
+    <FileVersion>2.0</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\dwinver_VSResc.ps1" />
+    <None Remove="Resources\license.ico" />
+    <None Remove="Resources\owner.ico" />
+    <None Remove="Resources\programdata.ico" />
+    <None Remove="Resources\support.ico" />
+    <None Remove="Resources\systeminfo.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="shell32_3.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\dwinver_VSResc.ps1" />
+    <EmbeddedResource Include="Resources\license.ico" />
+    <EmbeddedResource Include="Resources\owner.ico" />
+    <EmbeddedResource Include="Resources\programdata.ico" />
+    <EmbeddedResource Include="Resources\support.ico" />
+    <EmbeddedResource Include="Resources\systeminfo.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\Desktop\dwinver\shell32_3.ico">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\..\Desktop\dwinver\shell32_3.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.IO" Version="4.3.0" />
+    <PackageReference Include="System.Management" Version="9.0.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="DWinver.resx">
+      <Generator></Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

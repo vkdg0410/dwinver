@@ -1,0 +1,10 @@
+C:\Users\vagvo\source\repos\DWinver\bin\Release\net8.0-windows10.0.18362.0\publish\DWinver.exe
+C:\Users\vagvo\source\repos\DWinver\bin\Release\net8.0-windows10.0.18362.0\publish\DWinver.dll
+C:\Users\vagvo\source\repos\DWinver\bin\Release\net8.0-windows10.0.18362.0\publish\DWinver.deps.json
+C:\Users\vagvo\source\repos\DWinver\bin\Release\net8.0-windows10.0.18362.0\publish\DWinver.runtimeconfig.json
+C:\Users\vagvo\source\repos\DWinver\bin\Release\net8.0-windows10.0.18362.0\publish\DWinver.pdb
+C:\Users\vagvo\source\repos\DWinver\bin\Release\net8.0-windows10.0.18362.0\publish\Microsoft.Windows.SDK.NET.dll
+C:\Users\vagvo\source\repos\DWinver\bin\Release\net8.0-windows10.0.18362.0\publish\WinRT.Runtime.dll
+C:\Users\vagvo\source\repos\DWinver\bin\Release\net8.0-windows10.0.18362.0\publish\System.CodeDom.dll
+C:\Users\vagvo\source\repos\DWinver\bin\Release\net8.0-windows10.0.18362.0\publish\System.Management.dll
+C:\Users\vagvo\source\repos\DWinver\bin\Release\net8.0-windows10.0.18362.0\publish\runtimes\win\lib\net8.0\System.Management.dll

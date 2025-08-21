@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>DWinver</id>
+    <version>1.0.0</version>
+    <authors>DWinver</authors>
+    <description>Package Description</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net8.0-windows7.0">
+        <dependency id="System.Management" version="9.0.8" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net8.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+    <contentFiles>
+      <files include="any/net8.0-windows7.0/shell32_3.ico" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\Users\vagvo\source\repos\DWinver\bin\Debug\net8.0-windows\DWinver.runtimeconfig.json" target="lib\net8.0-windows7.0\DWinver.runtimeconfig.json" />
+    <file src="C:\Users\vagvo\source\repos\DWinver\bin\Debug\net8.0-windows\DWinver.dll" target="lib\net8.0-windows7.0\DWinver.dll" />
+    <file src="C:\Users\vagvo\source\repos\DWinver\shell32_3.ico" target="content\shell32_3.ico" />
+    <file src="C:\Users\vagvo\source\repos\DWinver\shell32_3.ico" target="contentFiles\any\net8.0-windows7.0\shell32_3.ico" />
+  </files>
+</package>
