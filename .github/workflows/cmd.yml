@@ -1,2 +1,4 @@
+name: Command Run
+
 on:
-workflow_dispatch:
+  workflow_dispatch:
