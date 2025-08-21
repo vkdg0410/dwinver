@@ -16,7 +16,7 @@ jobs:
     - name: Setup .NET
       uses: actions/setup-dotnet@v3
       with:
-        dotnet-version: '8.0-windows10.0.18362.0' # Match your project version
+        dotnet-version: '8.0' # Match your project version
 
     - name: Restore dependencies
       run: dotnet restore DWinver.sln
