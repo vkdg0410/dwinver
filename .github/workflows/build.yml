@@ -16,7 +16,7 @@ jobs:
     - name: Setup .NET
       uses: actions/setup-dotnet@v3
       with:
-        dotnet-version: '8.0' # Match your project version
+        dotnet-version: '8.0-windows10.0.18362.0' # Match your project version
 
     - name: Restore dependencies
       run: dotnet restore DWinver.sln
@@ -25,7 +25,7 @@ jobs:
       run: dotnet build DWinver.sln -c Release --no-restore
 
     - name: Publish EXE
-      run: dotnet publish DWinver.sln -c Release -r win-x64 -o published --self-contained true --no-restore
+      run: dotnet publish DWinver.sln -c Release -r win-x86 -o published --self-contained true --no-restore
 
     - name: Upload build artifact
       uses: actions/upload-artifact@v4
