@@ -16,6 +16,8 @@
     <PackageIcon>shell32_3.png</PackageIcon>
     <AssemblyVersion>2.0</AssemblyVersion>
     <FileVersion>2.0</FileVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <UseWPF>True</UseWPF>
   </PropertyGroup>
 
   <ItemGroup>
