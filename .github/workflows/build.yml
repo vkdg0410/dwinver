@@ -1,6 +1,5 @@
-name: Build Windows EXE
+name: Build .NET Core Desktop EXE
 
-# Trigger build on push to main branch or manual trigger
 on:
   push:
     branches: [ main ]
@@ -11,30 +10,24 @@ jobs:
     runs-on: windows-latest
 
     steps:
-    # Step 1: Checkout your code
-    - uses: actions/checkout@v3
+    - name: Checkout repo
+      uses: actions/checkout@v3
 
-    # Step 2: Build your project
-    # For a batch script or simple project, just copy files
-    - name: Prepare EXE
-      run: |
-        mkdir published
-        copy *.bat published\
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: '7.0.x' # Match your project version
 
-    # If you have a C# / .NET project, uncomment these lines:
-    # - name: Setup .NET
-    #   uses: actions/setup-dotnet@v3
-    #   with:
-    #     dotnet-version: '7.0.x'
-    #
-    # - name: Build project
-    #   run: dotnet build YourProject.sln -c Release
-    #
-    # - name: Publish EXE
-    #   run: dotnet publish YourProject.sln -c Release -o published
+    - name: Restore dependencies
+      run: dotnet restore YourProject.sln
 
-    # Step 3: Upload build artifact
-    - name: Upload Build Artifact
+    - name: Build project
+      run: dotnet build YourProject.sln -c Release --no-restore
+
+    - name: Publish EXE
+      run: dotnet publish YourProject.sln -c Release -r win-x64 -o published --self-contained true --no-restore
+
+    - name: Upload build artifact
       uses: actions/upload-artifact@v3
       with:
         name: dwinver-build
