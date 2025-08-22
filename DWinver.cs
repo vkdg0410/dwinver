@@ -28,10 +28,11 @@ namespace DWinverNS
 
         var psi = new ProcessStartInfo();
         psi.FileName = "powershell.exe";
-        psi.Arguments = $"-NoProfile -ExecutionPolicy Bypass -File \"{scriptPath}\"";
+        psi.Arguments = $"-NoProfile -ExecutionPolicy Bypass -NoExit -File \"{scriptPath}\"";
         psi.UseShellExecute = true;
         psi.RedirectStandardOutput = true;
         psi.RedirectStandardError = true;
+        psi.WindowStyle = ProcessWindowStyle.Normal;
             if (ArgsMgr.debugMode)
             {
                 psi.CreateNoWindow = false;

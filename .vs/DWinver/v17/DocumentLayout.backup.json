@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\vagvo\\source\\repos\\DWinver\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2007F57D-9BFD-4395-AF46-8E222014C2B9}|DWinver.csproj|c:\\users\\vagvo\\source\\repos\\dwinver\\dwinver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{2007F57D-9BFD-4395-AF46-8E222014C2B9}|DWinver.csproj|solutionrelative:dwinver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2007F57D-9BFD-4395-AF46-8E222014C2B9}|DWinver.csproj|c:\\users\\vagvo\\source\\repos\\dwinver\\dwinver.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{2007F57D-9BFD-4395-AF46-8E222014C2B9}|DWinver.csproj|solutionrelative:dwinver.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2007F57D-9BFD-4395-AF46-8E222014C2B9}|DWinver.csproj|c:\\users\\vagvo\\source\\repos\\dwinver\\dwinver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2007F57D-9BFD-4395-AF46-8E222014C2B9}|DWinver.csproj|solutionrelative:dwinver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -22,11 +14,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Document",
@@ -36,9 +32,9 @@
               "RelativeDocumentMoniker": "DWinver.cs",
               "ToolTip": "C:\\Users\\vagvo\\source\\repos\\DWinver\\DWinver.cs",
               "RelativeToolTip": "DWinver.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAwwBYAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCIAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T14:21:10.692Z",
+              "WhenOpened": "2025-08-22T08:38:37.818Z",
               "EditorCaption": ""
             }
           ]
