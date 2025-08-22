@@ -31,31 +31,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DWinver",
-              "DocumentMoniker": "C:\\Users\\vagvo\\source\\repos\\DWinver\\DWinver.csproj",
-              "RelativeDocumentMoniker": "DWinver.csproj",
-              "ToolTip": "C:\\Users\\vagvo\\source\\repos\\DWinver\\DWinver.csproj",
-              "RelativeToolTip": "DWinver.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-21T18:41:21.041Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DWinver",
-              "DocumentMoniker": "C:\\Users\\vagvo\\source\\repos\\DWinver\\DWinver.csproj",
-              "RelativeDocumentMoniker": "DWinver.csproj",
-              "ToolTip": "C:\\Users\\vagvo\\source\\repos\\DWinver\\DWinver.csproj",
-              "RelativeToolTip": "DWinver.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-21T18:28:06.128Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "DWinver.cs",
               "DocumentMoniker": "C:\\Users\\vagvo\\source\\repos\\DWinver\\DWinver.cs",
               "RelativeDocumentMoniker": "DWinver.cs",

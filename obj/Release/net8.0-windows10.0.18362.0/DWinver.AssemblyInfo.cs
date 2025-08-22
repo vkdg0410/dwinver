@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCopyrightAttribute("© Dev Setup All Rats reserved!")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Fish")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("2.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("2.0+1f9c37357df2897f13744b186bccf623310b9f07")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("2.0+deeeebb07ee8b91cd1038a185670f33cc0fdbb32")]
 [assembly: System.Reflection.AssemblyProductAttribute("DWinver")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DWinver")]
 [assembly: System.Reflection.AssemblyVersionAttribute("2.0")]

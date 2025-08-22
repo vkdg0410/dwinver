@@ -9,11 +9,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DWinver",
+              "DocumentMoniker": "C:\\Users\\vagvo\\source\\repos\\DWinver\\DWinver.csproj",
+              "RelativeDocumentMoniker": "DWinver.csproj",
+              "ToolTip": "C:\\Users\\vagvo\\source\\repos\\DWinver\\DWinver.csproj",
+              "RelativeToolTip": "DWinver.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-21T18:41:21.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DWinver",
+              "DocumentMoniker": "C:\\Users\\vagvo\\source\\repos\\DWinver\\DWinver.csproj",
+              "RelativeDocumentMoniker": "DWinver.csproj",
+              "ToolTip": "C:\\Users\\vagvo\\source\\repos\\DWinver\\DWinver.csproj",
+              "RelativeToolTip": "DWinver.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-21T18:28:06.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DWinver.cs",
+              "DocumentMoniker": "C:\\Users\\vagvo\\source\\repos\\DWinver\\DWinver.cs",
+              "RelativeDocumentMoniker": "DWinver.cs",
+              "ToolTip": "C:\\Users\\vagvo\\source\\repos\\DWinver\\DWinver.cs",
+              "RelativeToolTip": "DWinver.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAwwBYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T14:21:10.692Z",
+              "EditorCaption": ""
             }
           ]
         }
