@@ -1,60 +1,40 @@
-PS C:\Users\vagvo\source\repos\DWinver But PSWorking> C:\Users\vagvo\source\repos\DWinver But PSWorking\DWinver.ps1
-[ERROR] At C:\Users\vagvo\source\repos\DWinver But PSWorking\DWinver.ps1:84 char:49
-[ERROR] +     $Copyright    = "© Copyright Dev Setup — All Rats Reserved!"
-[ERROR] +                                                 ~~~
-[ERROR] Unexpected token 'All' in expression or statement.
-[ERROR] 
-[ERROR] At C:\Users\vagvo\source\repos\DWinver But PSWorking\DWinver.ps1:92 char:24
-[ERROR] +     Log-Prep "Metadata & support initialized"
-[ERROR] +                        ~
-[ERROR] The ampersand (&) character is not allowed. The & operator is reserved for futu
-[ERROR] re use; wrap an ampersand in double quotation marks ("&") to pass it as part of
-[ERROR]  a string.
-[ERROR] 
-[ERROR] At C:\Users\vagvo\source\repos\DWinver But PSWorking\DWinver.ps1:195 char:4
-[ERROR] + --- Software Information ---
-[ERROR] +    ~
-[ERROR] Missing expression after unary operator '-'.
-[ERROR] 
-[ERROR] At C:\Users\vagvo\source\repos\DWinver But PSWorking\DWinver.ps1:195 char:5
-[ERROR] + --- Software Information ---
-[ERROR] +     ~~~~~~~~
-[ERROR] Unexpected token 'Software' in expression or statement.
-[ERROR] 
-[ERROR] At C:\Users\vagvo\source\repos\DWinver But PSWorking\DWinver.ps1:204 char:4
-[ERROR] + --- Owner Information ---
-[ERROR] +    ~
-[ERROR] Missing expression after unary operator '-'.
-[ERROR] 
-[ERROR] At C:\Users\vagvo\source\repos\DWinver But PSWorking\DWinver.ps1:204 char:5
-[ERROR] + --- Owner Information ---
-[ERROR] +     ~~~~~
-[ERROR] Unexpected token 'Owner' in expression or statement.
-[ERROR] 
-[ERROR] At C:\Users\vagvo\source\repos\DWinver But PSWorking\DWinver.ps1:209 char:4
-[ERROR] + --- Support Information ---
-[ERROR] +    ~
-[ERROR] Missing expression after unary operator '-'.
-[ERROR] 
-[ERROR] At C:\Users\vagvo\source\repos\DWinver But PSWorking\DWinver.ps1:209 char:5
-[ERROR] + --- Support Information ---
-[ERROR] +     ~~~~~~~
-[ERROR] Unexpected token 'Support' in expression or statement.
-[ERROR] 
-[ERROR] At C:\Users\vagvo\source\repos\DWinver But PSWorking\DWinver.ps1:216 char:4
-[ERROR] + --- System Specs ---
-[ERROR] +    ~
-[ERROR] Missing expression after unary operator '-'.
-[ERROR] 
-[ERROR] At C:\Users\vagvo\source\repos\DWinver But PSWorking\DWinver.ps1:216 char:5
-[ERROR] + --- System Specs ---
-[ERROR] +     ~~~~~~
-[ERROR] Unexpected token 'System' in expression or statement.
-[ERROR] 
-[ERROR] Not all parse errors were reported.  Correct the reported errors and try again.
-[ERROR]     + CategoryInfo          : ParserError: (:) [], ParseException
-[ERROR]     + FullyQualifiedErrorId : UnexpectedToken
-[ERROR]  
+Build started at 17:56...
+------ Build started: Project: DWinver But PSWorking, Configuration: Debug Any CPU ------
+		OutputPath is C:\Users\vkdg\source\repos\DWinver But PSWorking\bin\Debug\net8.0-windows\
+		Bundling DWinver.ps1
+		Parsing file DWinver.ps1.
+		Packaging C:\Users\vkdg\AppData\Local\Temp\DWinver.ps1
+		Creating temp directory: C:\Users\vkdg\source\repos\DWinver But PSWorking\bin\Debug\net8.0-windows\bin\70b4da37a7774078b0e9ee8419110f59
+		Packaging modules...
+		Checking dotnet version.
+		Checking dotnet SDK version.
+		10.0.102
 
-[ERROR] Developer has lost his sanity now...
-[WARNING] Developer is experiencing a mental illness! Proceed with caution!
+		.NET SDK Version: 10.0.102
+
+		Creating package project.
+		Using .NET Framework version: net8.0
+		  Determining projects to restore...
+  Restored C:\Users\vkdg\source\repos\DWinver But PSWorking\bin\Debug\net8.0-windows\bin\70b4da37a7774078b0e9ee8419110f59\DWinver2.0.csproj (in 65 ms).
+
+		  Determining projects to restore...
+  Restored C:\Users\vkdg\source\repos\DWinver But PSWorking\bin\Debug\net8.0-windows\bin\70b4da37a7774078b0e9ee8419110f59\DWinver2.0.csproj (in 65 ms).
+
+		Packaging C:\Users\vkdg\AppData\Local\Temp\DWinver.ps1 -> C:\Users\vkdg\source\repos\DWinver But PSWorking\bin\Debug\net8.0-windows\DWinver2.0.exe
+		  Determining projects to restore...
+  All projects are up-to-date for restore.
+C:\Program Files\dotnet\sdk\10.0.102\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.RuntimeIdentifierInference.targets(293,5): warning NETSDK1189: Prefer32Bit is not supported and has no effect for netcoreapp target. [C:\Users\vkdg\source\repos\DWinver But PSWorking\bin\Debug\net8.0-windows\bin\70b4da37a7774078b0e9ee8419110f59\DWinver2.0.csproj]
+C:\Program Files\dotnet\sdk\10.0.102\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.targets(151,5): error NETSDK1136: The target platform must be set to Windows (usually by including '-windows' in the TargetFramework property) when using Windows Forms or WPF, or referencing projects or packages that do so. [C:\Users\vkdg\source\repos\DWinver But PSWorking\bin\Debug\net8.0-windows\bin\70b4da37a7774078b0e9ee8419110f59\DWinver2.0.csproj]
+
+Build FAILED.
+
+C:\Program Files\dotnet\sdk\10.0.102\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.RuntimeIdentifierInference.targets(293,5): warning NETSDK1189: Prefer32Bit is not supported and has no effect for netcoreapp target. [C:\Users\vkdg\source\repos\DWinver But PSWorking\bin\Debug\net8.0-windows\bin\70b4da37a7774078b0e9ee8419110f59\DWinver2.0.csproj]
+C:\Program Files\dotnet\sdk\10.0.102\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.targets(151,5): error NETSDK1136: The target platform must be set to Windows (usually by including '-windows' in the TargetFramework property) when using Windows Forms or WPF, or referencing projects or packages that do so. [C:\Users\vkdg\source\repos\DWinver But PSWorking\bin\Debug\net8.0-windows\bin\70b4da37a7774078b0e9ee8419110f59\DWinver2.0.csproj]
+    1 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.69
+
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\PowerShell Tools for Visual Studio\PowerShellTools.targets(14,5): error : Failed to build.
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Build completed at 17:56 and took 02,226 seconds ==========
