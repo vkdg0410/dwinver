@@ -1,11 +1,11 @@
 <Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>net8.0-windows</TargetFramework>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
     <RootNamespace>DWinver</RootNamespace>
-    <AssemblyName>DWinver2.0test</AssemblyName>
+    <AssemblyName>DWinver2.0</AssemblyName>
     <Name>DWinver But PSWorking</Name>
     <Author>Dev0630</Author>
     <CompanyName>Dev Setup</CompanyName>
@@ -23,7 +23,7 @@
     <PowerShellArgs>-NoProfile -ExecutionPolicy Bypass -NoExit</PowerShellArgs>
     <PackageEntryPoint>DWinver.ps1</PackageEntryPoint>
     <ProjectGuid>{6cafc0c6-a428-4d30-a9f9-700e829fea51}</ProjectGuid>
-    <Bundle>False</Bundle>
+    <Bundle>True</Bundle>
     <Obfuscate>False</Obfuscate>
     <FileVersion>2.0</FileVersion>
     <FileDescription>Fish</FileDescription>
@@ -65,9 +65,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="DWinver.ps1" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\PowerShell Tools for Visual Studio\PowerShellTools.targets" Condition="Exists('$(MSBuildExtensionsPath)\PowerShell Tools for Visual Studio\PowerShellTools.targets')" />
 </Project>
